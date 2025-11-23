@@ -15,7 +15,8 @@
       "launchBrowser": true,
       "applicationUrl": "http://localhost:5259",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "OPENAI_API_KEY": "sua-api-key"
       }
     },
     "https": {
@@ -24,7 +25,8 @@
       "launchBrowser": true,
       "applicationUrl": "https://localhost:7265;http://localhost:5259",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "OPENAI_API_KEY": "sua-api-key"
       }
     },
     "IIS Express": {
