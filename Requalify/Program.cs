@@ -9,7 +9,7 @@ using Oracle.EntityFrameworkCore;
 using Microsoft.AspNetCore.Cors.Infrastructure;
 
 // =========================
-//      CONFIGURA«√O
+//      CONFIGURA√á√ÉO
 // =========================
 
 var builder = WebApplication.CreateBuilder(args);
@@ -76,6 +76,9 @@ builder.Services.AddScoped<ServicoCursos>();
 builder.Services.AddScoped<ServicoVagas>();
 builder.Services.AddScoped<ServicoNoticias>();
 
+// IA
+builder.Services.AddScoped<AiRecommendationService>();
+
 var app = builder.Build();
 
 // MIDDLEWARE
@@ -98,7 +101,6 @@ app.MapHealthChecks("/health");
 app.Run();
 
 // =============================================
-//  ESSA CLASSE DEVE SEMPRE FICAR NO FINAL!!!
-//  NECESS¡RIA PARA OS TESTES DE INTEGRA«√O
+//  NECESS√ÅRIA PARA OS TESTES DE INTEGRA√á√ÉO
 // =============================================
 public partial class Program { }
