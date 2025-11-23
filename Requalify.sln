@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Requalify", "Requalify\Requalify.csproj", "{A7FD32C9-D6A7-4178-A780-380CBFF3EBF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Requalify.Tests", "Requalify.Tests\Requalify.Tests.csproj", "{9D288F0F-00E6-4D99-A8FC-59A04DA9122E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7FD32C9-D6A7-4178-A780-380CBFF3EBF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7FD32C9-D6A7-4178-A780-380CBFF3EBF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7FD32C9-D6A7-4178-A780-380CBFF3EBF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7FD32C9-D6A7-4178-A780-380CBFF3EBF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D288F0F-00E6-4D99-A8FC-59A04DA9122E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D288F0F-00E6-4D99-A8FC-59A04DA9122E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D288F0F-00E6-4D99-A8FC-59A04DA9122E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D288F0F-00E6-4D99-A8FC-59A04DA9122E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {421574F6-EC78-411A-B901-1257591A7CAD}
+	EndGlobalSection
+EndGlobal
